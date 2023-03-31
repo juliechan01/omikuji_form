@@ -1,0 +1,37 @@
+@charset "UTF-8";
+
+/* CSS reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+  /* Fixed width container class that will "auto-center" itself */
+.container {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.head {
+	text-align: center;
+	margin: 20px;
+}
+
+.content {
+	align-items: center;
+}
+
+label {
+	margin-top: 10px;
+}
+
+.submit {
+	margin-top: 5px;
+	display: flex;
+	justify-content: right;
+}
+
+h3 {
+	color: #BF94E4;
+}
